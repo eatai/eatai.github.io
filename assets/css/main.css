@@ -120,17 +120,17 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		color: var(--themecolor_3);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: var(--themecolor_1) !important;
+			color: var(--themecolor_2) !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: var(--themecolor_3);
 		font-weight: 700;
 	}
 
